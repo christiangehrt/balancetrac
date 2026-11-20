@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="description" content="BalanceTrac – offline-fähiger Trainer für 3D-Balance-Boards: Measure, Train, Play und History.">
+  <meta name="theme-color" content="#F4F5F7">
+  <meta name="color-scheme" content="light">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BalanceTrac">
+  <meta name="format-detection" content="telephone=no">
+  <title>BalanceTrac</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div id="app" class="app">
+    <main id="view-root" class="view-root"></main>
+  </div>
+  <div id="sensor-banner" class="sensor-banner" role="status" hidden></div>
+  <div id="rotate-hint" class="rotate-hint" role="alert"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript">BalanceTrac benötigt JavaScript. / BalanceTrac requires JavaScript.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>BalanceTrac</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#363B44"/>
+      <stop offset="1" stop-color="#22262C"/>
+    </linearGradient>
+    <linearGradient id="pad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF8A45"/>
+      <stop offset="1" stop-color="#D3561A"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#A5E0A8"/>
+      <stop offset="0.5" stop-color="#4CAF50"/>
+      <stop offset="1" stop-color="#2E7D32"/>
+    </radialGradient>
+  </defs>
+  <!-- Vollflächiger Hintergrund; Motiv auf 76 % skaliert, damit es in der Maskable-Safe-Zone liegt -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 256) scale(0.76) translate(-256 -270)">
+    <ellipse cx="256" cy="404" rx="170" ry="14" fill="#000" opacity="0.28"/>
+    <rect x="196" y="352" width="120" height="26" rx="10" fill="url(#pad)"/>
+    <rect x="196" y="376" width="120" height="26" rx="10" fill="url(#pad)"/>
+    <path d="M186 354 Q186 324 222 324 L290 324 Q326 324 326 354 Z" fill="#4A5059"/>
+    <g transform="rotate(-9 256 316)">
+      <rect x="70" y="296" width="372" height="40" rx="20" fill="#F4F5F7"/>
+      <rect x="70" y="296" width="372" height="12" rx="6" fill="#FFFFFF" opacity="0.7"/>
+      <circle cx="150" cy="252" r="44" fill="url(#ball)"/>
+    </g>
+  </g>
+</svg>

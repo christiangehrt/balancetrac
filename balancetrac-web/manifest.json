@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "BalanceTrac – Balance-Board-Trainer",
+  "short_name": "BalanceTrac",
+  "description": "Offline-fähiger Trainer für 3D-Balance-Boards: Measure, Train, Play und History.",
+  "lang": "de",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#F4F5F7",
+  "theme_color": "#F4F5F7",
+  "categories": ["fitness", "health", "games"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
